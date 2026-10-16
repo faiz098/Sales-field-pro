@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Extract Android project
-        run: unzip -q SalesFieldProAndroid.zip
+        run: unzip -q SalesFieldProAndroid_v1.1_icon_csv_fix.zip
       - name: Set up Java 17
         uses: actions/setup-java@v4
         with:
